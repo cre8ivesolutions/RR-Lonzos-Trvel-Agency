@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Suspense fallback={<div style={{margin:"auto"}}><Button animation="grow"  variant="light" disabled><Spinner as="span" animation="border" size="xl" role="status" aria-hidden="true"/>Loading...</Button></div>}>
       <h1>Lonzo's Travel Agency</h1>
-      <h2>Make your travel dreams come true</h2>
+      <h2>Make your travel dreams come true!</h2>
       <div className="contents">
              <AboutUs />
              <Packages />

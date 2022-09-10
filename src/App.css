@@ -1,23 +1,35 @@
 * {
   margin-top: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App {
   text-align: center;
   background-image: url("https://images.unsplash.com/photo-1576475510454-b0af18970e6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
-  height: 900px;
+  min-height: 110vh;
 }
 
 .contents {
-  display: flex;
-  flex-direction: row;
-  height: 300px;
-  margin-top: 100px
+  display: flexbox;
 }
 
 .content-box {
-  border: 2px solid black;
-  font-size: 20px;
+  border: 2px solid rgba(171, 217, 220, 0.737);
+  font-size: 1em;
+  background-color: rgba(171, 217, 220, 0.572);
+  padding-right: 1em;
+  padding-left: 1em;
+  margin: 1em;
+  max-height: 50vh;
+}
+p {
+  padding-top: .5em;
+  margin-top: 0;
+}
+h1, h2 {
+  margin-bottom: 0;
+  padding: .5em; 
+  color: rgb(7, 19, 110);
 }
